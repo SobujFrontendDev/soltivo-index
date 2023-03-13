@@ -1,0 +1,675 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,li{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+/* ============================
+common css end 
+============================
+============================
+navbar part css 
+============================ */
+#menu-top{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+#navbarmain{
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    padding-top: 95px;
+}
+.navtoprow{
+    background-color: #222222;
+    padding: 25px 0;
+    color: #fff;
+}
+.navtop {
+	padding-left: 40px;
+    position: relative;
+}
+.navtop h6{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.navtop h4{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.navtop i {
+	position: absolute;
+	top: 50%;
+	left: 13px;
+	transform: translateY(-50%);
+	font-size: 28px;
+}
+.navbar {
+	--bs-navbar-padding-y: 0rem;
+}
+.navbg{
+    background-color: #fff;
+}
+.navbar-collapse{
+    padding: 7px 0;
+}
+.navbar-nav .nav-link{
+	color: #bbbbbb !important;
+}
+.navbar-nav a:hover{
+	color: #222222 !important;
+}
+.navbar-nav a{
+	font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding-right: 55px !important;
+}
+.quick-search-input {
+	width: 250px;
+	height: 35px;
+	font-size: .85em;
+	font-weight: bold;
+	color: #919191;
+	border: 2px solid transparent;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	padding: 4px 30px;
+}
+.searicon i {
+	padding: 10px;
+	color: #b4b4b4;
+}
+/* ============================
+banner part css 
+============================  */
+.banner-text{
+    color: #fff;
+    padding-top: 350px;
+}
+.banner-po{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+.banner-text h6{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.banner-text h3{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+}
+.banner-text a{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    height: 45px;
+    width: 150px;
+    line-height: 40px;
+    margin: 10px;
+    border: 2px solid #333333;
+}
+.banner-text a:hover{
+    background-color: #e54209;
+    border: 2px solid transparent;
+}
+.banner-img{
+    height: 945px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner-slide{
+    position: relative;
+}
+#banner .banner-slide .prev {
+    position: absolute;
+    bottom: 50%;
+    left: 0px;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    padding-left: 13px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    z-index: 999;
+}
+#banner .banner-slide .prev:hover {
+	background-color: #e54209;
+}
+#banner .banner-slide .next {
+    position: absolute;
+    bottom: 50%;
+    right: 0px;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    padding-left: 13px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    z-index: 999;
+}
+#banner .banner-slide .next:hover {
+	background-color: #e54209;
+}
+/* ============================
+about us part css 
+============================  */
+.about-top {
+	margin: 110px 0;
+}
+.about-text{
+    padding-top: 24px;
+    position: relative;
+}
+.about-text h6 {
+	color: #e54209;
+	font-family: 'DM Sans', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	position: absolute;
+	top: 25px;
+	left: 140px;
+}
+.about-text h3{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    padding-top: 20px;
+}
+.about-text p{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #777777;
+}
+.about-text h5{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 25px 0;
+}
+.about-text h5 span{
+    padding-left: 40px;
+    color: #c3c3c3;
+}
+.about-text a {
+	font-family: 'DM Sans', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	color: #fff;
+	background-color: #e54209;
+	padding: 15px 45px;
+	margin-top: 20px;
+}
+.top-left{
+    background-color: #e54209;
+    color: #fff;
+}
+.bgc {
+	padding: 55px 55px 55px 130px;
+	position: relative;
+}
+.bgc i {
+	position: absolute;
+	top: 44%;
+	left: 30px;
+	font-size: 70px;
+}
+.bgc h2{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+}
+.bgc h5{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.bgc p{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 20px 0;
+}
+.bgc a{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    color: #fff;
+}
+.top-right .bgc a{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    color: black;
+}
+.top-right{
+    background-color: #fff;
+}
+.bottom-left{
+    background-color: #ffffff;
+}
+.bottom-right{
+    background-color: #222222;
+    color: #fff;
+}
+/* ============================
+about logo part css 
+============================  */
+#aboutlogo {
+	background-color: #f4f4f4;
+	padding-top: 120px;
+	margin-top: -62px;
+}
+/* ============================
+intro part css 
+============================  */
+#intro {
+	background-color: #1b1b1b;
+	color: #fff;
+	margin-top: -80px;
+	padding-top: 120px;
+	padding-bottom: 400px;
+}
+.intro-text h6 {
+	padding-left: 90px;
+	color: #d83f0a;
+	font-family: 'DM Sans', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+    position: relative;
+}
+.intro-text h6::after {
+	position: absolute;
+	content: "";
+	top: 8px;
+	left: 12px;
+	height: 2px;
+	width: 65px;
+	background-color: #d83f0a;
+}
+.intro-text h3 {
+	font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+}
+.intro-text p {
+	font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #6f6f6f;
+    padding: 40px 0;
+    width: 525px;
+}
+.point{
+    position: relative;
+}
+.point h5 {
+	padding-left: 60px;
+	font-family: 'DM Sans', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 50px;
+}
+.point i {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	height: 40px;
+	width: 40px;
+	background-color: #d83f0a;
+	line-height: 40px;
+	padding-left: 12px;
+	border-radius: 50%;
+}
+/* ============================
+study part css 
+============================  */
+#study {
+	margin-top: -218px;
+}
+.study-head h6 {
+	font-family: 'DM Sans', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	padding-left: 65px;
+	color: #d83f0a;
+	text-transform: uppercase;
+	position: relative;
+}
+.study-head h6::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 7px;
+	height: 2px;
+	width: 55px;
+	background-color: #d83f0a;
+}
+.study-head h3 {
+	font-family: 'DM Sans', sans-serif;
+	font-weight: 700;
+	font-size: 60px;
+    color: #fff;
+}
+.study-item{
+    color: #fff;
+    padding: 30px;
+}
+.study-text{
+    padding-top: 230px;
+    padding-bottom: 10px;
+}
+.study-text h6{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.study-text h3{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.ff{
+    padding-right: 20px;
+}
+.study-bottom h4{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.study-bottom h4 span{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #e54209;
+}
+/* ============================
+work part css 
+============================  */
+#work{
+    background-color: #f7f7f7;
+    padding: 120px 0;
+}
+.make{
+    padding: 52px;
+    box-shadow: 0px 0px 12px -1px rgba(0,0,0,1);
+-webkit-box-shadow: 0px 0px 12px -1px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 12px -1px rgba(0,0,0,1);
+}
+.make i {
+	font-size: 70px;
+	color: #e54209;
+}
+.make h6{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.make p{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #929292;
+}
+.get {
+	background-color: #e54209;
+	padding: 62px;
+	margin: 0px 45px;
+}
+.get i {
+	font-size: 70px;
+	color: #fff;
+}
+.get h6{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+.get p{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+.how{
+    text-align: left;
+}
+.how h6 {
+	font-family: 'DM Sans', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+    color: #d83f0a;
+	text-transform: uppercase;
+	position: relative;
+	padding-left: 100px;
+}
+.how h6::after {
+	content: '';
+	position: absolute;
+	top: 6px;
+	left: 4px;
+	height: 2px;
+	width: 80px;
+	background-color: #929292;
+}
+.how h3{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+}
+.how p {
+	font-family: 'DM Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #929292;
+	padding: 29px 0;
+}
+.how a {
+	font-family: 'DM Sans', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	padding: 15px 35px;
+	background-color: #d83f0a;
+	color: #fff;
+}
+/* ============================
+feedback part css 
+============================  */
+#feedback{
+    background: url(../images/map.jpg);
+    padding-top: 120px;
+    padding-bottom: 360px;
+}
+.feed-text h6 {
+	font-family: 'DM Sans', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	color: #e54209;
+	position: relative;
+	padding-left: 100px;
+}
+.feed-text h6::after {
+	content: '';
+	position: absolute;
+	top: 7px;
+	left: 10px;
+	width: 80px;
+	height: 2px;
+	background-color: #e54209;
+}
+.feed-text h3{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+}
+.feed-comment {
+	margin: 30px 0;
+	background-color: #fff;
+	padding: 40px;
+    position: relative;
+}
+.comment-name {
+	padding-left: 95px;
+    position: relative;
+}
+.comment-name img{
+	height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.comment-icon {
+	height: 130px;
+	width: 130px;
+	background-color: #e54209;
+	position: absolute;
+	top: 0;
+	right: 0;
+	clip-path: circle(92.2% at 100% 0);
+}
+.comment-icon i {
+	position: absolute;
+	top: 22px;
+	right: 13px;
+	font-size: 55px;
+	color: #fff;
+}
+.feed-comment h5{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.feed-comment h5 span{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.comment-pra p{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 50px;
+}
+.feed-right {
+	position: relative;
+	padding-top: 90px;
+}
+.feed-line img {
+	position: absolute;
+	top: 38px;
+	right: 0;
+}
+/* ============================
+action part css 
+============================  */
+#action{
+    
+}
+.action-part{
+    background-color: green;
+    box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+}
+.action-head h6 {
+	font-family: 'DM Sans', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	color: #e54209;
+	text-transform: uppercase;
+	position: relative;
+	padding-left: 100px;
+}
+.action-head h6::after {
+	position: absolute;
+	content: '';
+	left: 3px;
+	top: 7px;
+	height: 2px;
+	width: 82px;
+	background-color: #ededed;
+}
+.action-head h3 {
+	font-family: 'DM Sans', sans-serif;
+	font-weight: 700;
+	font-size: 60px;
+}
+.action-part input {
+	height: 60px;
+	width: 500px;
+	padding: 20px;
+	margin: 10px 0;
+	background-color: #ededed;
+	border: none;
+}
+.action-part textarea {
+	width: 500px;
+	padding: 20px;
+	margin: 10px 0;
+	background-color: #ededed;
+	border: none;
+}
+.action-part button {
+	padding: 10px 20px;
+	margin: 10px 0px;
+	background-color: #d83f0a;
+	border: none;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
