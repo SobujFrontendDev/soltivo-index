@@ -606,12 +606,27 @@ action part css
 #action{
     
 }
-.action-part{
-    background-color: green;
-    box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
-    clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+.action-part {
+	background-color: #fff;
+	box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
+	clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
+    padding: 85px;
+    
+}
+.action-row {
+	position: relative;
+	margin-top: -255px;
+}
+.action-box {
+	position: absolute;
+	width: 515px;
+	height: 525px;
+	top: 62px;
+	right: 0;
+	background-color: #ededed;
+	z-index: 1;
 }
 .action-head h6 {
 	font-family: 'DM Sans', sans-serif;
